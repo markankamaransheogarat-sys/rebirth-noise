@@ -1,0 +1,11 @@
+[package]
+name = "rebirth-noise"
+version = "0.1.0"
+description = "Coherent noise in safe Rust: value, Perlin, simplex and cellular noise with fractal combinators and volume filling. Inspired by FastNoiseSIMD by Jordan Peck."
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+readme = "../../README.md"
+keywords = ["noise", "perlin", "simplex", "procedural", "terrain"]
+categories = ["algorithms", "game-development", "graphics"]

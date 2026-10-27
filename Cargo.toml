@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = ["crates/rebirth-noise"]
+
+[workspace.package]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/markankamaransheogarat-sys/rebirth-noise"
+authors = ["markankamaransheogarat-sys"]
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+panic = "abort"
